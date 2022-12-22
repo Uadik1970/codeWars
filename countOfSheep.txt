@@ -1,0 +1,16 @@
+my decision
+
+function countSheeps(arrayOfSheep) {
+  let countOfSheep =[];
+  for(let i = 0;i<arrayOfSheep.length;i++){
+    if(arrayOfSheep[i]===true)
+      countOfSheep.push(true)
+  }
+  return countOfSheep.length
+}
+
+
+best practices
+function countSheeps(arrayOfSheeps) {
+  return arrayOfSheeps.filter(Boolean).length;
+}

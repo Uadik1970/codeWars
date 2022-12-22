@@ -1,0 +1,3 @@
+function paperwork(classmates , pages) {
+return  classmates > 0 && pages > 0 ? classmates * pages : 0
+}	
