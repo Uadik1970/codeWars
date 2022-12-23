@@ -10,3 +10,8 @@ const quarterOf = (month) => {
     return year[month- 1].quarter
   }else return 1
 };
+
+
+best practices
+
+const quarterOf = m => Math.ceil(m/3);
