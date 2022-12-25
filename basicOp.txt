@@ -1,0 +1,36 @@
+function basicOp(operation, value1, value2)
+{
+ switch(operation) {
+  case '+':  
+  let result1 =  value1 + value2
+  return result1
+     break;
+  case '-':
+    let result2 = value1 -value2
+    return result2
+     break;
+      case '*':  
+  let result3 =   value1 *value2
+     return result3
+     break;
+   case '/':  
+  let result4 =   value1 /value2
+     return result4
+}
+  }
+  
+  best practices 
+  function basicOp(operation, value1, value2) {
+    switch (operation) {
+        case '+':
+            return value1 + value2;
+        case '-':
+            return value1 - value2;
+        case '*':
+            return value1 * value2;
+        case '/':
+            return value1 / value2;
+        default:
+            return 0;
+    }
+}
