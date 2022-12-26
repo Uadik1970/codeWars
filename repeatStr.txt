@@ -1,0 +1,9 @@
+function repeatStr (n, s) {
+return Array(n).fill(s).join('')
+}
+
+best practices
+
+function repeatStr (n, s) {
+  return s.repeat(n);
+}
