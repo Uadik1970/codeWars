@@ -1,0 +1,11 @@
+function hero(bullets, dragons){
+return (bullets >= dragons * 2 ? true : false);
+}
+
+
+
+best pracieces
+
+function hero(bullets, dragons){
+  return bullets >= dragons * 2
+}
