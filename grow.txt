@@ -1,0 +1,7 @@
+function grow(x){
+return x.reduce((a,b) => a*b);
+}
+
+
+best practice
+const grow=x=> x.reduce((a,b) => a*b);

@@ -1,0 +1,21 @@
+var summation = function (num) {
+  let arr = []
+  
+  for(let i = 1; i <= num; i++){
+    arr.push(i)
+  }
+  
+  return arr.reduce((sum, el) => sum + el, 0)
+}
+
+
+best practices
+
+var summation = function (num) {
+  let result = 0;
+  for (var i = 1; i <= num; i++) {
+    result += i;
+  }
+  
+  return result;
+}
